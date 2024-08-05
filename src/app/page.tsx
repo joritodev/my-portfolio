@@ -1,30 +1,24 @@
+import Image from "next/image";
 import { Experience } from "./components/experience/experience";
 import { Header } from "./components/header/header";
+import { Info } from "./components/information/information";
 
 import "./styles/home.scss"
+import { EmailIcon } from "./components/icons/email-icon";
+import { SocialBtns } from "./components/social-btns/social-btns";
 
 export default function Home() {
   return (
     <main className="container">
       <Header />
       <Experience />
-      <div className="infos">
-        <h3>Linguas</h3>
-        <div className="languages-info">
-          <span>PT-BR - Falante Nativo</span>
-          <span>EN-US - Básico</span>
-        </div>
-        <h3>Educação</h3>
-        <div className="education-info">
-          <span>🎓</span>
-          <span>Bacharelado em Ciência da Computação - Centro Universitário Farias Brito (em andamento)</span>
-        </div>
-        <div className="buttons">
-          <div className="social">
-
-          </div>
-          <button>Me Contate</button>
-        </div>
+      <Info />
+      <div className="buttons">
+        <SocialBtns/>
+        <a className="btn-primary" href="mailto:joritodev@gmail.com" target="_blank">
+          Me Contate
+          <EmailIcon/>
+        </a>
       </div>
     </main>
   );
