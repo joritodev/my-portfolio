@@ -2,7 +2,6 @@ import Image from "next/image";
 import "./header.scss"
 export function Header() {
     return (
-        <>
             <div className="header">
                 <div>
                     <h1>Oii, eu sou João Victor 👋</h1>
@@ -16,6 +15,5 @@ export function Header() {
                     priority
                 />
             </div>
-        </>
     )
 }
