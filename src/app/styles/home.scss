@@ -43,7 +43,7 @@
 
 }
 
-@media (width >= 992px) {
+@media (width >= 1025px) {
     .container {
         padding: 70px 60px;
         height: 100vh;
@@ -53,6 +53,7 @@
         justify-items: start;
         grid-template-areas: 
         "header info"
+        "experience empty-1"
         "experience btns"
         "projects projects";
     }
