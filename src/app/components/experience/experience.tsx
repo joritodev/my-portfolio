@@ -10,7 +10,7 @@ export function Experience() {
     return (
         <div className="experience">
             <SectionTitle text="Experiência" />
-            <p>Faço projetos front-end através de desafios do site Frontend Mentor</p>
+            <p>Estudo Front-end por fora da facudlade pois desde que comecei com projetos básicos somente com HTML e CSS, tenho amado me profissionalizar e me capacitar cada vez mais nessa área incrível! Atualmente meus projetos são feitos com base em desafios do Frontend Mentor e por desafios de vagas de emprego que procuro no Youtube.</p>
             <div className="experience-time">
                 <div className="experience-language">
                     <a>

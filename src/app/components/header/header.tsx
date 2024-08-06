@@ -9,7 +9,7 @@ export function Header() {
                     <h2>Desenvolvedor Front-End</h2>
                 </div>
                 <Image
-                    src="/Jorito.png"
+                    src="/Jorito.jpg"
                     alt="Jorito Foto"
                     width={220}
                     height={220}
